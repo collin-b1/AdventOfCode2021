@@ -9,7 +9,7 @@ export class Day01 extends Day {
         return total;
     }
 
-    part2 = (data: any): number => {
+    part2 = (data: number[]): number => {
         let triSum: number[] = [];
         for (let i = 2; i < data.length; i++) {
             triSum.push(data[i - 2] + data[i - 1] + data[i]);
