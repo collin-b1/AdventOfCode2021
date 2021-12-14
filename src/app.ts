@@ -1,4 +1,4 @@
-import { Day01 } from './day';
-import { getInput, toNumberArray } from './util';
+import { Day04 } from './day';
+import { getInput } from './util';
 
-console.log(new Day01().part2(toNumberArray(getInput(1))));
+console.log(new Day04().part1(getInput(4)));

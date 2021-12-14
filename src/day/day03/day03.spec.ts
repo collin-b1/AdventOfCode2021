@@ -1,5 +1,5 @@
 import { Day03 } from '../';
-import { getInput, toNumberArray } from '../../util';
+import { getInput } from '../../util';
 
 describe('Day 03', () => {
 
